@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193101C01ECD2FA700434865 /* NewExbVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101BF1ECD2FA700434865 /* NewExbVC.swift */; };
+		193101C21ECD38E900434865 /* AddNewArtworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101C11ECD38E900434865 /* AddNewArtworkVC.swift */; };
+		193101C41ECD392200434865 /* AddNewArtistProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101C31ECD392200434865 /* AddNewArtistProfileVC.swift */; };
+		193101C61ECD398D00434865 /* ConfigureGallerySpaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101C51ECD398D00434865 /* ConfigureGallerySpaceVC.swift */; };
+		193101CB1ECD4EB500434865 /* Exhibitions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193101C91ECD4EB500434865 /* Exhibitions.xcdatamodeld */; };
+		193101F01ECDB88100434865 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101EF1ECDB88100434865 /* Utils.swift */; };
+		193101F41ECDCD3900434865 /* Exhibition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101F31ECDCD3900434865 /* Exhibition.swift */; };
+		193101F61ECE7C8500434865 /* savedExhibitionsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101F51ECE7C8500434865 /* savedExhibitionsTVC.swift */; };
+		193101F81ECE809900434865 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101F71ECE809900434865 /* Artist.swift */; };
+		193101FA1ECE80D800434865 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101F91ECE80D800434865 /* Artwork.swift */; };
+		193101FC1ECE810000434865 /* ExhibitionArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101FB1ECE810000434865 /* ExhibitionArtists.swift */; };
+		193101FE1ECE812F00434865 /* ExhibitionArtworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101FD1ECE812F00434865 /* ExhibitionArtworks.swift */; };
+		193102001ECF58F100434865 /* ViewExhibitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193101FF1ECF58F100434865 /* ViewExhibitionVC.swift */; };
+		193102021ED0513E00434865 /* artworksTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193102011ED0513E00434865 /* artworksTVC.swift */; };
 		197952B61EB16C37008CD8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197952B51EB16C37008CD8D0 /* AppDelegate.swift */; };
 		197952B81EB16C37008CD8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197952B71EB16C37008CD8D0 /* ViewController.swift */; };
 		197952BB1EB16C37008CD8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197952B91EB16C37008CD8D0 /* Main.storyboard */; };
@@ -15,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193101BF1ECD2FA700434865 /* NewExbVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExbVC.swift; sourceTree = "<group>"; };
+		193101C11ECD38E900434865 /* AddNewArtworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewArtworkVC.swift; sourceTree = "<group>"; };
+		193101C31ECD392200434865 /* AddNewArtistProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewArtistProfileVC.swift; sourceTree = "<group>"; };
+		193101C51ECD398D00434865 /* ConfigureGallerySpaceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureGallerySpaceVC.swift; sourceTree = "<group>"; };
+		193101CA1ECD4EB500434865 /* Exhibitions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exhibitions.xcdatamodel; sourceTree = "<group>"; };
+		193101EF1ECDB88100434865 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		193101F31ECDCD3900434865 /* Exhibition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exhibition.swift; sourceTree = "<group>"; };
+		193101F51ECE7C8500434865 /* savedExhibitionsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = savedExhibitionsTVC.swift; sourceTree = "<group>"; };
+		193101F71ECE809900434865 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		193101F91ECE80D800434865 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		193101FB1ECE810000434865 /* ExhibitionArtists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitionArtists.swift; sourceTree = "<group>"; };
+		193101FD1ECE812F00434865 /* ExhibitionArtworks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitionArtworks.swift; sourceTree = "<group>"; };
+		193101FF1ECF58F100434865 /* ViewExhibitionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExhibitionVC.swift; sourceTree = "<group>"; };
+		193102011ED0513E00434865 /* artworksTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = artworksTVC.swift; sourceTree = "<group>"; };
 		197952B21EB16C37008CD8D0 /* assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		197952B51EB16C37008CD8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		197952B71EB16C37008CD8D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +83,24 @@
 			isa = PBXGroup;
 			children = (
 				197952B51EB16C37008CD8D0 /* AppDelegate.swift */,
+				193101EF1ECDB88100434865 /* Utils.swift */,
+				193101C91ECD4EB500434865 /* Exhibitions.xcdatamodeld */,
 				197952B71EB16C37008CD8D0 /* ViewController.swift */,
+				193101FF1ECF58F100434865 /* ViewExhibitionVC.swift */,
+				193101F51ECE7C8500434865 /* savedExhibitionsTVC.swift */,
+				193102011ED0513E00434865 /* artworksTVC.swift */,
+				193101BF1ECD2FA700434865 /* NewExbVC.swift */,
+				193101C11ECD38E900434865 /* AddNewArtworkVC.swift */,
 				197952B91EB16C37008CD8D0 /* Main.storyboard */,
 				197952BC1EB16C37008CD8D0 /* Assets.xcassets */,
+				193101C31ECD392200434865 /* AddNewArtistProfileVC.swift */,
+				193101C51ECD398D00434865 /* ConfigureGallerySpaceVC.swift */,
 				197952BE1EB16C37008CD8D0 /* LaunchScreen.storyboard */,
+				193101F31ECDCD3900434865 /* Exhibition.swift */,
+				193101F71ECE809900434865 /* Artist.swift */,
+				193101F91ECE80D800434865 /* Artwork.swift */,
+				193101FB1ECE810000434865 /* ExhibitionArtists.swift */,
+				193101FD1ECE812F00434865 /* ExhibitionArtworks.swift */,
 				197952C11EB16C37008CD8D0 /* Info.plist */,
 			);
 			path = assignment2;
@@ -137,8 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193101FE1ECE812F00434865 /* ExhibitionArtworks.swift in Sources */,
+				193101F61ECE7C8500434865 /* savedExhibitionsTVC.swift in Sources */,
 				197952B81EB16C37008CD8D0 /* ViewController.swift in Sources */,
 				197952B61EB16C37008CD8D0 /* AppDelegate.swift in Sources */,
+				193101FC1ECE810000434865 /* ExhibitionArtists.swift in Sources */,
+				193101F41ECDCD3900434865 /* Exhibition.swift in Sources */,
+				193102021ED0513E00434865 /* artworksTVC.swift in Sources */,
+				193101F01ECDB88100434865 /* Utils.swift in Sources */,
+				193102001ECF58F100434865 /* ViewExhibitionVC.swift in Sources */,
+				193101C21ECD38E900434865 /* AddNewArtworkVC.swift in Sources */,
+				193101F81ECE809900434865 /* Artist.swift in Sources */,
+				193101FA1ECE80D800434865 /* Artwork.swift in Sources */,
+				193101C01ECD2FA700434865 /* NewExbVC.swift in Sources */,
+				193101C41ECD392200434865 /* AddNewArtistProfileVC.swift in Sources */,
+				193101CB1ECD4EB500434865 /* Exhibitions.xcdatamodeld in Sources */,
+				193101C61ECD398D00434865 /* ConfigureGallerySpaceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +358,22 @@
 				197952C61EB16C37008CD8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		193101C91ECD4EB500434865 /* Exhibitions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				193101CA1ECD4EB500434865 /* Exhibitions.xcdatamodel */,
+			);
+			currentVersion = 193101CA1ECD4EB500434865 /* Exhibitions.xcdatamodel */;
+			path = Exhibitions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 197952AA1EB16C37008CD8D0 /* Project object */;
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Artist" representedClassName=".Artist" syncable="YES" codeGenerationType="category">
+        <attribute name="artistID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artPic" optional="YES" attributeType="Binary" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilePic" optional="YES" attributeType="Binary" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Artwork" representedClassName=".Artwork" syncable="YES" codeGenerationType="category">
+        <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exhibition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hangingDevice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="medium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Exhibition" representedClassName=".Exhibition" syncable="YES" codeGenerationType="category">
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ExhibitionArtists" representedClassName=".ExhibitionArtists" syncable="YES" codeGenerationType="category">
+        <attribute name="artistID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exbID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ExhibitionArtworks" representedClassName=".ExhibitionArtworks" syncable="YES" codeGenerationType="category">
+        <attribute name="artworkID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exhibitionID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exhibition" positionX="-216" positionY="-261" width="128" height="118"/>
+        <element name="Artist" positionX="-54" positionY="18" width="128" height="163"/>
+        <element name="Artwork" positionX="-36" positionY="-36" width="128" height="193"/>
+        <element name="ExhibitionArtists" positionX="-18" positionY="-18" width="128" height="75"/>
+        <element name="ExhibitionArtworks" positionX="-216" positionY="-72" width="128" height="75"/>
+    </elements>
+</model>
